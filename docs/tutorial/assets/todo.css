@@ -246,7 +246,7 @@ body {
 }
 
 .todo-list li .edit {
-    display: none;
+    display: block;
 }
 
 .todo-list li.editing:last-child {
