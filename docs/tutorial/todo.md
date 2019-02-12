@@ -987,7 +987,7 @@ end
 # app/hyperstack/components/edit_item.rb
 class EditItem < HyperComponent
   param :todo
-  fires :save
+  fires :saved
   fires :cancel
   other :etc
   after_mount { jQ[dom_node].focus }
